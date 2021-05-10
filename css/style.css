@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 50px;
+  background-color: #f44336;
+  position: sticky;
+  top: 0;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+nav {
+  height: 50px;
+  line-height: 50px;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav ul li:first-child {
+  margin-left: 0px;
+  background-color: white;
+}
+nav ul li:first-child a {
+  color: black;
+}
+nav ul li:first-child a:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+article:first-child {
+  height: 500px;
+  background-color: #f44336;
+}
+h1 {
+  font-size: 65px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+#temp {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  margin-bottom: 35px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+button:hover {
+  background-color: lightgray;
+  color: black;
+}
+article:nth-child(2) {
+  height: 500px;
+  background-color: white;
+  padding: 125px 0px 0px 170px;
+}
+h2 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+#left {
+  width: 50%;
+  float: left;
+}
+#right {
+  padding-left: 125px;
+  width: 50%;
+  float: left;
+}
+.fasi {
+  font-size: 200px;
+  color: #f44336;
+}
+p {
+  margin-bottom: 50px;
+}
+/* #left p:nth-child(2) {
+  color: lightgray;
+} */
+
+.lorem:nth-child(2) {
+  color: lightgray;
+}
+article:nth-child(3) {
+  height: 500px;
+  background-color: lightgray;
+  clear: both;
+}
+/* #third {
+  clear: both;
+} */
+#left2 {
+  float: left;
+  width: 50%;
+  padding: 100px 0px 0px 200px;
+}
+#right2 {
+  float: left;
+  width: 50%;
+  padding: 70px 10px 0px 0px;
+}
+
+#right2 .lorem:nth-child(3) {
+  color: black;
+  opacity: 0.6;
+}
+#right2 .lorem:nth-child(2) {
+  color: black;
+}
+
+footer {
+  opacity: 0.8;
+  font-size: 25px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.fab {
+  font-size: 100px;
+  opacity: 0.8;
+}
+.fab:hover {
+  opacity: 0.5;
+}
